@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "jeklly tips & tricks"
+title: "Jeklly tips & tricks"
 categories: Tool
 ---
 
-- Local host Jeklly website
+- Local host Jeklly website  
 ```
 bundle exec jekyll serve
 ```
