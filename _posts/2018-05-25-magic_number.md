@@ -2,7 +2,7 @@
 layout: post
 title: Magic Number
 date: 2017-07-16 12:28
-categories: programming
+categories: Programming
 ---
 
 >Any number other than 0 or 1 is likely to be magic and should have a name of its own

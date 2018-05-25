@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Install Lubuntu on Virtualbox"
-categories: how-to
+categories: How-to
 ---
 
 ## Install virtual box addon  

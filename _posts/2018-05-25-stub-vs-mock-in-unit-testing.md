@@ -2,7 +2,7 @@
 layout: post
 title: "Stub vs Mock in Unit Testing"
 date: 2017-07-19 19:28
-categories: programming
+categories: Programming
 ---
 
 ## Concept
