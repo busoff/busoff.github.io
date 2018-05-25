@@ -1,9 +1,10 @@
-Title: stub vs mock in unit testing
-Date: 2017-07-19 19:28
-Category: programming
-Tags: unit test
+---
+layout: post
+title: "Stub vs Mock in Unit Testing"
+date: 2017-07-19 19:28
+categories: programming
+---
 
-This is a note based on the article "[Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)" from Martin Fowler.
 ## Concept
 A testing is involved with two types of object
 - SUT(System under test) object
@@ -13,8 +14,6 @@ A testing is involved with two types of object
 - Check the result of the method under testing
   - the state of the object under testing
   - the state of its collaborators
-
-- the collab
 
 ## Behavior verification style
 - Check the state of object under testing as state verification style
@@ -31,5 +30,6 @@ The difference is the state verification focuses on the result of the method und
 - **Stub objects** provide canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test.
 - **Spies** are stubs that also record some information based on how they were called. One form of this might be an email service that records how many message it was sent.
 - **Mocks** are objects are initialized with expectation which forms a specification of the calls that they are expected to receive.
+
 ## Reference
-1. https://martinfowler.com/articles/mocksArentStubs.html
+- https://martinfowler.com/articles/mocksArentStubs.html
